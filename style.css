@@ -233,30 +233,29 @@ input[type="submit"]:hover {
         margin-bottom: 10px;
         padding-bottom: 0;
     }
-
     /* Form */
-input[type="date"] {
-    background-color: #fff;
-    border: none;
-    padding: 5px 10px 5px;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 50%;
-    float: left;
-}
-input[type="submit"] {
-    background-color: #19a7d2;
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 5px 10px 5px;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 50%;
-    float: center;
-    margin-top: 20px;
-}
-input[type="submit"]:hover {
-    background-color: #027092;
-    color: #fff;
-}
+    input[type="date"] {
+        background-color: #fff;
+        border: none;
+        padding: 5px 10px 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 50%;
+        float: left;
+    }
+    input[type="submit"] {
+        background-color: #19a7d2;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 5px 10px 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 50%;
+        float: center;
+        margin-top: 20px;
+    }
+    input[type="submit"]:hover {
+        background-color: #027092;
+        color: #fff;
+    }
 }
