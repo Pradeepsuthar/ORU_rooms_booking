@@ -68,12 +68,14 @@
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.1);
     position: relative;
     cursor: pointer;
-  }
-
-  .card-img{
     width:100%;
     height: auto;
     min-height: 150px;
+  }
+
+  .card-img{
+    width: 100%;
+    max-height: 200px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
   }
@@ -174,4 +176,96 @@ input[type="submit"]{
 input[type="submit"]:hover{
     background-color: #027092;
     color: #fff;
+}
+
+@media(max-width:750px){
+
+    .oru-card{
+        width:100%;
+        height: auto;
+      }
+    
+      .card-img{
+        width: 100%;
+        height: auto;
+      }
+
+      .card-details{
+        padding-left: 10px;
+    }
+    
+    .card-details .oru-card-title{
+        font-size: 15px;
+    }
+    
+    .address{
+        font-size: 12px;
+    }
+    
+    .price{
+        font-size: 15px;
+    }
+    
+    .hotelRating__rating {
+        padding: 2px 4px;
+        margin-right: 9px;
+        font-size: 10px;
+    }
+    
+    .btn-details{
+        padding: 3px 15px 3px;
+        font-size: 12px;
+    }
+
+    .action{
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width:655px){
+
+    .oru-card{
+        width:100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+    
+      .card-img{
+        width: 100%;
+        min-height: 170px;
+        max-height: 180px;
+      }
+
+      .card-details{
+        padding-left: 10px;
+    }
+    
+    .card-details .oru-card-title{
+        font-size: 13px;
+        line-height: 10px;
+    }
+    
+    .address{
+        font-size: 11px;
+    }
+    
+    .price{
+        font-size: 13px;
+    }
+    
+    .hotelRating__rating {
+        padding: 1px 2px 1px;
+        margin-right: 9px;
+        font-size: 9px;
+    }
+    
+    .btn-details{
+        padding: 3px 12px 3px;
+        font-size: 10px;
+    }
+
+    .action{
+        margin-bottom: 5px;
+        padding-bottom: 0;
+    }
 }
