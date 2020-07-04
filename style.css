@@ -22,7 +22,7 @@ body{
   }
 
 .banner {
-    background: linear-gradient(135.46deg, #56d1f7, #77d4ff);
+    /* background: linear-gradient(135.46deg, #56d1f7, #77d4ff); */
     height: auto;
     display: flex;
     flex-direction: column;
@@ -33,6 +33,11 @@ body{
     color: #fff;
     padding-top: 20px;
     padding-bottom: 0px;
+    background: linear-gradient(rgba(86, 209, 247, 0.7), rgba(0, 0, 0, 0.7)), url(https://training-project-fa527.web.app/assets/images/others/about.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
 }
 /* Clear floats after the columns */
 .row:after {
