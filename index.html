@@ -13,30 +13,32 @@
     <div class="w3-container banner">
 
         <h2 class="booking-container-heading">Book Your Local Escape</h2>
-        <div>
-            <p>
-                <span>
+        <div class="row">
+            <div class="row">
+                <span class="col-6" style="padding-left: 5px;">
                     <label for="checkInDate" style="float: left;">Check In Date</label>
                     <input autocomplete="off" placeholder="Check In Date" type="date" id="checkInDate">
                 </span>
-                <span>
+                <span class="col-6" style="padding-left: 5px;">
                     <label for="checkOutDate" style="float: left;">Check Out Date</label>
                     <input autocomplete="off" placeholder="Check Out Date" type="date" id="checkOutDate">
                 </span>
-            </p>
-            <p>
+                </p>
+                <p class="row">
+                    <span class="col-6" style="padding-left: 5px;">
+                        <label for="adults" style="float: left;">Adults</label>
+                        <input autocomplete="off" placeholder="Adults" type="number" value="0">
+                    </span>
+                    <span class="col-6" style="padding-left: 5px;">
+                        <label for="Children" style="float: left;">Children</label>
+                        <input autocomplete="off" placeholder="Children" type="number" value="0">
+                    </span>
+                </p>
                 <span>
-                    <label for="adults" style="float: left;">Adults</label>
-                    <input autocomplete="off" placeholder="Adults" type="number" value="0">
+                    <input type="submit" value="Search">
                 </span>
-                <span>
-                    <label for="Children" style="float: left;">Children</label>
-                    <input autocomplete="off" placeholder="Children" type="number" value="0">
-                </span>
-            </p>
-            <span>
-                <input type="submit" value="Search">
-            </span>
+            </div>
+
         </div>
 
     </div>
