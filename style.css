@@ -6,7 +6,7 @@
     font-family: 'Rubik', sans-serif;
 }
 .banner {
-    background: linear-gradient(135.46deg, #027092, #56d1f7);
+    background: linear-gradient(135.46deg, #56d1f7, #77d4ff);
     height: auto;
     display: flex;
     flex-direction: column;
@@ -80,7 +80,7 @@
     text-transform: uppercase;
     display: inline-flex;
     color: rgb(255, 255, 255);
-    background-color: #19a7d2;
+    background-color: #77d4ff;
     position: absolute;
     top: 16px;
     left: 0px;
@@ -129,14 +129,14 @@
     padding-bottom: 5px;
 }
 .btn-details {
-    border: 1px solid #19a7d2;
-    color: #19a7d2;
+    border: 1px solid #77d4ff;
+    color: #77d4ff;
     padding: 5px 25px 5px;
     border-radius: 5px;
     text-decoration: none;
 }
 .btn-details:hover {
-    background-color: #19a7d2;
+    background-color: #77d4ff;
     color: #fff;
 }
 .card-details .action {
@@ -155,7 +155,7 @@ input[type="date"],input[type="text"],input[type="number"]:focus{
     outline: none;
 }
 input[type="submit"] {
-    background-color: #19a7d2;
+    background-color: #77d4ff;
     color: #fff;
     border: 1px solid #fff;
     padding: 10px 20px 10px;
@@ -280,7 +280,7 @@ input[type=number] {
         float: left;
     }
     input[type="submit"] {
-        background-color: #19a7d2;
+        background-color: #77d4ff;
         color: #fff;
         border: 1px solid #fff;
         padding: 5px 10px 5px;
