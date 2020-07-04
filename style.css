@@ -80,7 +80,7 @@
     text-transform: uppercase;
     display: inline-flex;
     color: rgb(255, 255, 255);
-    background-color: #77d4ff;
+    background-color: #5ec5f5;
     position: absolute;
     top: 16px;
     left: 0px;
@@ -129,14 +129,14 @@
     padding-bottom: 5px;
 }
 .btn-details {
-    border: 1px solid #77d4ff;
-    color: #77d4ff;
+    background-color: #40b7ee;
+    color: #fff;
     padding: 5px 25px 5px;
     border-radius: 5px;
     text-decoration: none;
 }
 .btn-details:hover {
-    background-color: #77d4ff;
+    border: 1px solid #77d4ff;
     color: #fff;
 }
 .card-details .action {
