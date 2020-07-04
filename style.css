@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
 }
+body{
+    background-color: #f9fbfd;
+}
 .banner {
     background: linear-gradient(135.46deg, #56d1f7, #77d4ff);
     height: auto;
@@ -59,10 +62,10 @@
     color: #222;
     padding: 0;
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     border-radius: 4px;
-    /* border: 0.5px solid rgb(236, 236, 236); */
-    /* box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.1); */
+    border: 0.5px solid rgb(236, 236, 236);
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
     position: relative;
     cursor: pointer;
     width: 100%;
@@ -236,7 +239,7 @@ input[type=number] {
     }
     .oru-card {
         width: 100%;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
         padding-right: 3px;
     }
     .card-img {
@@ -295,3 +298,43 @@ input[type=number] {
         color: #fff;
     }
 }
+
+
+.tab-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f8f9fa;
+    border-top: .2px solid #dddedf;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.tab-menu ul li {
+    float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 20%; /* Four links of equal widths */
+  text-align: center;
+  }
+  
+ .tab-menu ul li a {
+    display: block;
+    color: #918f8f;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .tab-menu ul li .tab-active{
+      color: #77d4ff;
+  }
+  
+ .tab-menu ul li a:hover {
+    color: #111;
+  }
