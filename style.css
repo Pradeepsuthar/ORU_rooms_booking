@@ -8,6 +8,19 @@
 body{
     background-color: #f9fbfd;
 }
+  
+  
+  #navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+    background-color: #f8f9fa;
+    border-bottom: .2px solid #dddedf;
+    padding: 12px;
+  }
+
 .banner {
     background: linear-gradient(135.46deg, #56d1f7, #77d4ff);
     height: auto;
@@ -154,7 +167,23 @@ input[type="date"],input[type="text"],input[type="number"] {
     cursor: pointer;
     margin-bottom: 10px;
 }
-input[type="date"],input[type="text"],input[type="number"]:focus{
+
+input[type="search"]{
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('https://img.uxfree.com/wp-content/uploads/2011/12/search-icon-512.png');
+  background-size: 25px;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+input[type="date"],input[type="text"],input[type="number"],input[type="search"]:focus{
     outline: none;
 }
 input[type="submit"] {
@@ -315,12 +344,12 @@ input[type=number] {
 
 .tab-menu ul li {
     float: left;
-  padding: 12px;
-  color: white;
-  text-decoration: none;
-  font-size: 17px;
-  width: 20%; /* Four links of equal widths */
-  text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 20%; /* Four links of equal widths */
+    text-align: center;
   }
   
  .tab-menu ul li a {
